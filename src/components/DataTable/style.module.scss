@@ -1,0 +1,32 @@
+.rowHeader {
+  :global{
+    th { 
+      padding: 0.1rem 0.3rem 0.1rem 0.75rem !important;
+      > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+.noFilter {
+  :global{
+    th { 
+      padding: 0.75rem !important;
+    }
+  }
+}
+
+.rowFilter {
+  :global{
+    th { 
+      padding: 0.3rem !important;
+    }
+  }
+}
+
+.scrollTable {
+  overflow-x: scroll;
+}

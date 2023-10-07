@@ -1,0 +1,30 @@
+.indicatorGroup {
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.2) !important;
+  :global {
+    a {
+      border: 0;
+      background: none;
+    }
+  }
+}
+
+.ASC{
+  :global{
+    .up{  
+      color: rgb(51, 51, 51) !important;
+    }
+  }
+}
+
+.DESC {
+  :global{
+    .down{  
+      color: rgb(51, 51, 51) !important;
+    }
+  }
+}
