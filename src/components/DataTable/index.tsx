@@ -45,7 +45,7 @@ const emptyFn = () => {
   /**/
 };
 
-function DataTable<T>({
+export const DataTable = function <T>({
   fields,
   items,
   columnFilter = false,
@@ -177,6 +177,4 @@ function DataTable<T>({
       </table>
     </div>
   );
-}
-
-export default DataTable;
+};
